@@ -1,0 +1,30 @@
+# Environment
+.env
+.env.local
+venv/
+.venv/
+env/
+python_env/
+data/uploads/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Databases & Vector Stores
+chroma_db/
+*.sqlite3
+*.db
+
+# Temporary & Data
+temp/
+d:\HCL Project/temp/
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
